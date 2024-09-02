@@ -9,7 +9,8 @@ if (process.env.NODE_ENV !== "dev") {
 } else {
   let corsOptions = {
       // origin: 'http://localhost:3000'
-      origin: 'https://real-estate-rentals-frontend.onrender.com'
+      // origin: 'https://real-estate-rentals-frontend.onrender.com'
+      origin: 'https://smar-investments-1-llc-frontend.onrender.com'
   };
   app.use(cors(corsOptions));
 }
